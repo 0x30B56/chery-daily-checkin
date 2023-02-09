@@ -1,6 +1,4 @@
-以下是用Quantumult X实现的自动获取Cookies并签到脚本：
 
-```
 const loginUrl = "https://club.qirui.com/v2/api/?login";
 const signinUrl = "https://club.qirui.com/signin";
 
@@ -42,8 +40,3 @@ function signin(cookies) {
     }
   });
 }
-```
-
-您需要替换代码中的奇瑞车主俱乐部账号密码，然后在Quantumult X的脚本编辑器中输入上面的代码，并保存后运行它。
-
-希望这个脚本能帮助您。
