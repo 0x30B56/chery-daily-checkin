@@ -1,6 +1,6 @@
 
 const loginUrl = "https://club.qirui.com/v2/api/?login";
-const signinUrl = "https://club.qirui.com/signin";
+const signinUrl = "https://hybrid-sapp.chery.cn/package-mine/pages/sign-in/sign-in";
 
 // 替换为您的奇瑞车主俱乐部账号密码
 const loginData = {
