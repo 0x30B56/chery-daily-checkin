@@ -5,7 +5,7 @@ const signinUrl = "https://club.qirui.com/signin";
 // 替换为您的奇瑞车主俱乐部账号密码
 const loginData = {
   username: "15613863036",
-  password: "Huxichen01"
+  password: ""
 };
 
 // 登录奇瑞车主俱乐部
