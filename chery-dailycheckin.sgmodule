@@ -1,5 +1,5 @@
-#!name=New Bing for other browsers
-#!desc=Unlock browser restrictions for new bing AI search.
+#!name=奇瑞汽车签到
+#!desc=奇瑞汽车签到
 
 [Header Rewrite]
 ^https:\/\/hybrid-sapp\.chery\.cn\/\/package-mine\/pages\/sign-in\/sign-in header-replace-regex User-Agent \w+\/[\d\.]+$ "Host: hybrid-sapp.chery.cn
