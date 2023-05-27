@@ -14,4 +14,4 @@ Sec-Fetch-Dest: document
 Accept-Encoding: gzip, deflate, br"
 
 [MITM]
-hostname = %APPEND% www.bing.com
+hostname = %APPEND% hybrid-sapp.chery.cn
