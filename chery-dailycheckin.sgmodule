@@ -1,6 +1,6 @@
 #!name=chery
 #!desc=checkin
 [Header Rewrite]
-^https:\/\/hybrid-sapp\.chery\.cn\/\/package-mine\/pages\/sign-in\/sign-in header-replace-regex User-Agent \w+\/[\d\.]+$ "Host: hybrid-sapp.chery.cn Sec-Fetch-Site: none Cookie: cna=4d77e015a7704e599c90b1765cb354af Connection: keep-alive Sec-Fetch-Mode: navigate Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8 User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 16_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 ios/1.0.0 Accept-Language: zh-CN,zh-Hans;q=0.9 Sec-Fetch-Dest: document Accept-Encoding: gzip, deflate, br"
+^https:\/\/hybrid-sapp\.chery\.cn\/\/package-mine\/pages\/sign-in\/sign-in header-replace-regex Cookie \w+\/[\d\.]+$ "cna=4d77e015a7704e599c90b1765cb354af"
 [MITM]
 hostname = %APPEND% hybrid-sapp.chery.cn
