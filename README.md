@@ -1,1 +1,1 @@
-# chery-daily-checkin
+# dejian vip
