@@ -1,4 +1,4 @@
-#!name=dejian vip
+#!name=dejian vip破解
 #!desc=vip会员
 [Header Rewrite]
 ^https:\/\/dj\.palmestore\.com\/zyuc\/api\/user\/accountInfo url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/dejianxiaoshuo.js
