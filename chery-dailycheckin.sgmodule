@@ -1,6 +1,6 @@
-#!name=chery
-#!desc=checkin
+#!name=dejian vip
+#!desc=vip会员
 [Header Rewrite]
-^https:\/\/hybrid-sapp\.chery\.cn\/\/package-mine\/pages\/sign-in\/sign-in header-replace-regex Cookie \w+\/[\d\.]+$ "cna=4d77e015a7704e599c90b1765cb354af"
+^https:\/\/dj\.palmestore\.com\/zyuc\/api\/user\/accountInfo url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/dejianxiaoshuo.js
 [MITM]
 hostname = %APPEND% hybrid-sapp.chery.cn
