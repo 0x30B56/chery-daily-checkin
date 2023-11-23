@@ -1,6 +1,6 @@
 #!name=dejian vip破解
 #!desc=vip会员
 [Header Rewrite]
-^https:\/\/dj\.palmestore\.com\/zyuc\/api\/user\/accountInfo url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/dejianxiaoshuo.js
+^https:\/\/mobile-consumer-sapp\.chery\.cn\/web\/task\/record\/sign-in\/daily url script-request-headers https://raw.githubusercontent.com/chxm1023/Rewrite/main/dejianxiaoshuo.js
 [MITM]
 hostname = %APPEND% dj.palmestore.com
