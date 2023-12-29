@@ -1,7 +1,7 @@
 #!name=奇瑞汽车自动签到
 #!desc=奇瑞签到
 #!system=ios
-[Header Rewrite]
-^https:\/\/mobile-consumer-sapp\.chery\.cn\/web\/task\/record\/sign-in\/daily url script-request-headers https://raw.githubusercontent.com/0x30B56/chery-daily-check-in/main/qr.js
 [MITM]
 hostname = %APPEND% mobile-consumer-sapp.chery.cn
+[SCRIPT]
+奇瑞签到 = type=cron,cronexp=1 0 * * *,script-path=https://raw.githubusercontent.com/0x30B56/chery-daily-checkin/main/qr.js,debug=1
