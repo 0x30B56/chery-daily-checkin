@@ -1,5 +1,6 @@
 #!name=奇瑞汽车自动签到
 #!desc=奇瑞签到
+#!system=ios
 [Header Rewrite]
 ^https:\/\/mobile-consumer-sapp\.chery\.cn\/web\/task\/record\/sign-in\/daily url script-request-headers https://raw.githubusercontent.com/chxm1023/Rewrite/main/dejianxiaoshuo.js
 [MITM]
