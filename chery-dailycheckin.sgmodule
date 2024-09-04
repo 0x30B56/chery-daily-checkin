@@ -1,6 +1,6 @@
 #!name=奇瑞汽车自动签到
 #!desc=奇瑞签到
-#!system=ios
+#!system=surge
 [MITM]
 hostname = %APPEND% mobile-consumer-sapp.chery.cn
 [SCRIPT]
