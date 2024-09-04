@@ -4,4 +4,5 @@
 [MITM]
 hostname = %APPEND% mobile-consumer-sapp.chery.cn
 [SCRIPT]
+获取cookie = type=http-request,pattern=^https?:\/\/mobile-consumer\.chery\.cn\/web\/task\/record\/sign-in,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/0x30B56/chery-daily-checkin/main/qr.js,
 奇瑞签到 = type=cron,cronexp=1 0 * * *,script-path=https://raw.githubusercontent.com/0x30B56/chery-daily-checkin/main/qr.js
